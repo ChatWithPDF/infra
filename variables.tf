@@ -1,7 +1,7 @@
 variable "resource_group_name" {
   description = "Name of resource group"
   type        = string
-  default     = "agrimitra"
+  default     = "chatwithpdf"
 }
 
 variable "resource_group_location" {
@@ -13,7 +13,7 @@ variable "resource_group_location" {
 variable "storage_account_name" {
   description = "Name of state storage account"
   type        = string
-  default     = "agrimitrastate"
+  default     = "chatwithpdfstate"
 }
 
 variable "storage_container_name" {
@@ -43,7 +43,7 @@ variable "worker_instance_count" {
 variable "gpu_instance_count" {
   description = "Number of GPU Worker VM instances to create"
   type        = number
-  default     = 0
+  default     = 1
 }
 
 variable "manual_instance_count" {
